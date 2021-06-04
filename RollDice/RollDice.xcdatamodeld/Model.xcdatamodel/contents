@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20D80" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Die" representedClassName="Die" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="five" optional="YES" attributeType="String"/>
+        <attribute name="four" optional="YES" attributeType="String"/>
+        <attribute name="one" optional="YES" attributeType="String"/>
+        <attribute name="three" optional="YES" attributeType="String"/>
+        <attribute name="two" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Die" positionX="-63" positionY="-18" width="128" height="119"/>
+    </elements>
+</model>

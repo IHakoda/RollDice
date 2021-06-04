@@ -9,8 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView {
+            RollDiceView(setting: Setting.example)
+                .tabItem {
+                    Image(systemName: "die.face.5")
+                    Text("Roll Dice")
+                }
+            ResultView()
+                .tabItem {
+                    Image(systemName: "list.bullet.rectangle")
+                    Text("Result")
+                }
+        }
     }
 }
 

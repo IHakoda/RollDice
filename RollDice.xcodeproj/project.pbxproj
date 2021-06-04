@@ -7,19 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		182D378625E9A8B1008B8373 /* RollDice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 182D378425E9A8B1008B8373 /* RollDice.xcdatamodeld */; };
+		182D378A25E9AB23008B8373 /* Dice+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D378825E9AB23008B8373 /* Dice+CoreDataClass.swift */; };
+		182D378B25E9AB23008B8373 /* Dice+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D378925E9AB23008B8373 /* Dice+CoreDataProperties.swift */; };
 		1891B14425E8D34800E0E881 /* RollDiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891B14325E8D34800E0E881 /* RollDiceApp.swift */; };
 		1891B14625E8D34800E0E881 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891B14525E8D34800E0E881 /* ContentView.swift */; };
 		1891B14825E8D34900E0E881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1891B14725E8D34900E0E881 /* Assets.xcassets */; };
 		1891B14B25E8D34900E0E881 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1891B14A25E8D34900E0E881 /* Preview Assets.xcassets */; };
+		1891B15425E8D3A100E0E881 /* RollDiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891B15325E8D3A100E0E881 /* RollDiceView.swift */; };
+		1891B15725E8D3AC00E0E881 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891B15625E8D3AC00E0E881 /* ResultView.swift */; };
+		1891B15A25E8DB4300E0E881 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891B15925E8DB4300E0E881 /* SettingsView.swift */; };
+		1891B15D25E9142A00E0E881 /* UserSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891B15C25E9142A00E0E881 /* UserSetting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		182D378525E9A8B1008B8373 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		182D378825E9AB23008B8373 /* Dice+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dice+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		182D378925E9AB23008B8373 /* Dice+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dice+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		1891B14025E8D34800E0E881 /* RollDice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RollDice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1891B14325E8D34800E0E881 /* RollDiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollDiceApp.swift; sourceTree = "<group>"; };
 		1891B14525E8D34800E0E881 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1891B14725E8D34900E0E881 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1891B14A25E8D34900E0E881 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1891B14C25E8D34900E0E881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1891B15325E8D3A100E0E881 /* RollDiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollDiceView.swift; sourceTree = "<group>"; };
+		1891B15625E8D3AC00E0E881 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		1891B15925E8DB4300E0E881 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		1891B15C25E9142A00E0E881 /* UserSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSetting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +66,15 @@
 		1891B14225E8D34800E0E881 /* RollDice */ = {
 			isa = PBXGroup;
 			children = (
+				182D378825E9AB23008B8373 /* Dice+CoreDataClass.swift */,
+				182D378925E9AB23008B8373 /* Dice+CoreDataProperties.swift */,
 				1891B14325E8D34800E0E881 /* RollDiceApp.swift */,
+				182D378425E9A8B1008B8373 /* RollDice.xcdatamodeld */,
 				1891B14525E8D34800E0E881 /* ContentView.swift */,
+				1891B15325E8D3A100E0E881 /* RollDiceView.swift */,
+				1891B15925E8DB4300E0E881 /* SettingsView.swift */,
+				1891B15C25E9142A00E0E881 /* UserSetting.swift */,
+				1891B15625E8D3AC00E0E881 /* ResultView.swift */,
 				1891B14725E8D34900E0E881 /* Assets.xcassets */,
 				1891B14C25E8D34900E0E881 /* Info.plist */,
 				1891B14925E8D34900E0E881 /* Preview Content */,
@@ -138,6 +159,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				182D378A25E9AB23008B8373 /* Dice+CoreDataClass.swift in Sources */,
+				1891B15A25E8DB4300E0E881 /* SettingsView.swift in Sources */,
+				1891B15425E8D3A100E0E881 /* RollDiceView.swift in Sources */,
+				1891B15725E8D3AC00E0E881 /* ResultView.swift in Sources */,
+				182D378625E9A8B1008B8373 /* RollDice.xcdatamodeld in Sources */,
+				1891B15D25E9142A00E0E881 /* UserSetting.swift in Sources */,
+				182D378B25E9AB23008B8373 /* Dice+CoreDataProperties.swift in Sources */,
 				1891B14625E8D34800E0E881 /* ContentView.swift in Sources */,
 				1891B14425E8D34800E0E881 /* RollDiceApp.swift in Sources */,
 			);
@@ -269,6 +297,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"RollDice/Preview Content\"";
+				DEVELOPMENT_TEAM = S2CLJTKCFC;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = RollDice/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -290,6 +319,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"RollDice/Preview Content\"";
+				DEVELOPMENT_TEAM = S2CLJTKCFC;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = RollDice/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -326,6 +356,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		182D378425E9A8B1008B8373 /* RollDice.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				182D378525E9A8B1008B8373 /* Model.xcdatamodel */,
+			);
+			currentVersion = 182D378525E9A8B1008B8373 /* Model.xcdatamodel */;
+			path = RollDice.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 1891B13825E8D34700E0E881 /* Project object */;
 }
